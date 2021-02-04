@@ -1,0 +1,58 @@
+/*样式重置*/
+html,body,div,img,p,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,table,thead,tbody,tfoot,form,section,fieldset,legend,iframe,marquee{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 12px;
+}
+/*去除列表样式*/
+ul,ol,li{
+	list-style:none;
+}
+
+/*去除下划线*/
+a{
+	text-decoration: none;
+}
+
+/*文字变常规样式*/
+h1,h2,h3,h4,h5,h6,i,em,var,b,strong{
+	font-weight: normal;
+  font-style: normal;
+}
+
+/*图片垂直对齐*/
+img{
+	vertical-align: middle;
+}
+
+/*去除聚焦线*/
+input{
+	outline: 0;
+}
+/*去除边框*/
+.noborder{
+	border:0!important;
+}
+
+/*万能清浮动*/
+.clear:after{
+	content: '';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	overflow: hidden;
+}
+.clear{
+	zoom: 1;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+}
+#root {
+	width: 100%;
+	height: 100%;
+}
